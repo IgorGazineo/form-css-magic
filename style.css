@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.active {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  transition: all 1s ease;
+}
+
+header.active {
+  position: fixed;
+  width: 100%;
+  top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+header .logo.active {
+  background: linear-gradient(to right, #496f74, #6e9195, #2d4f61);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0 0 0 64px;
+  transition: all 1s ease;
+}
+
+header ul.active {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0 151px 0 0;
+  transition: all 1s ease;
+}
+
+header ul a.active {
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  transition: all 1s ease;
+}
+
+.left.active {
+  background-color: #fff;
+  width: 50%;
+  transition: all 1s ease;
+}
+
+.container.active {
+  width: 400px;
+  margin: 150px auto 0;
+  transition: all 1s ease;
+}
+
+.left h2.active {
+  font-size: 24px;
+  line-height: 36px;
+  transition: all 1s ease;
+}
+
+form section.active {
+  margin-top: 24px;
+  transition: all 1s ease;
+}
+
+.left form .name.active {
+  margin: 80px auto 0;
+  width: 100%;
+  transition: all 1s ease;
+}
+
+/* .left form .email.active {
+} */
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  transition: all 1s ease;
+}
+
+label {
+  margin-bottom: 4px;
+  line-height: 24px;
+  transition: all 1s ease;
+}
+
+input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 6px 12px;
+  transition: all 1s ease;
+}
+
+form button.active {
+  font-weight: bold;
+  color: #fff;
+  padding: 8px;
+  margin-top: 32px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #27485d;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.right.active {
+  background: linear-gradient(to bottom, #517879, #1e3e57);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.container2.active {
+  width: 431px;
+  margin: 0 auto;
+  transition: all 1s ease;
+}
+
+.container2.active h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 4px 4px 1px rgba(255, 255, 255, 0.3);
+  line-height: 96px;
+  transition: all 1s ease;
+}
+
+.container2.active p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 4px 4px 1px rgba(255, 255, 255, 0.3);
+  line-height: 24px;
+  transition: all 1s ease;
+}
+
+.magic {
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 141.835px);
+  margin: auto;
+  padding: 12px 24px;
+
+  background-color: rgba(98, 81, 227, 0.5);
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgb(0, 255, 251);
+  transition: background-color 0.3s ease;
+}
+
+.magic:hover {
+  background-color: rgb(98, 81, 227);
+}
+
+.magic.off {
+  display: none;
+}
